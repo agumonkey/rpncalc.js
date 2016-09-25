@@ -1,0 +1,112 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 20:48:23 Jul 12, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:53:32 Sep 25, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: smaller;
+}
+#footer {
+	font-size: smaller;
+}
+
+h1, h2, p, table {
+	margin: 0; margin-bottom: 8px;
+}
+
+form { margin: 0; padding: 0; }
+
+form #entry {
+	background-color: #99ff99;
+	border: solid 1px #009900;
+	font-weight: bold;
+}
+form #entry.function-mode {
+	background-color: black;
+	color: #99ff99;
+	border: solid 1px #99ff99;
+}
+form #entry.store-mode {
+	background-color: #000099;
+	color: white;
+	border: solid 1px #white;
+}
+form #entry.recall-mode {
+	background-color: #000099;
+	color: white;
+	border: solid 1px #white;
+}
+form #stack {
+	background-color: #eeeeff;
+	border: solid 1px #5555ff;
+	vertical-align: baseline;
+	border-top: 0px;
+}
+form #stacktop {
+	background-color: #ccccff;
+	border: solid 1px #5555ff;
+	border-bottom: 0px;
+	font-weight: bold;
+}
+form #format {
+	font-weight: bold;
+}
+form input,
+form textarea {
+	font-family: courier new, courier, monospace;
+	padding: 1px 4px 1px 4px;
+	margin: 0px;
+	background-color: #eeeeee;
+	border: solid 1px #333333;
+}
+
+textarea, input { margin: 0; vertical-align: baseline; }
+
+table { font-size: inherit; }
+form { font-size: inherit; }
+input { font-size: inherit; }
+textarea { font-size: inherit; }
+pre { font-size: inherit; }
+#entry, #stack, #stacktop, #format, #history {
+	width: 17em;
+}
+#history {
+	font-size: 85%; width: 20em;
+}
+
+.help {
+	font-size: 90%;
+	float: left;
+	padding: 0 1em;
+	border-left: solid 1px black;
+	margin: 0;
+}
+.help h1, .help h2, .help h3, .help h4, .help h5, .help h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+.help p {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+.help h2 {
+	font-weight: normal;
+	text-decoration: underline;
+}
+.help pre {
+	margin: 0; padding: 0;
+}
+div.help {
+	width: 10em;
+}
